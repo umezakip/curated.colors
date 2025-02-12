@@ -175,10 +175,13 @@
   	width: 993px;
   	display: flex;
   	flex-direction: row;
-  	align-items: flex-start;
-  	justify-content: flex-start;
   	cursor: pointer;
   	font-family: 3satHurme;
+    align-items: center;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	align-content: center;
+  	text-align: center;
 }
 .february-11th-2025 {
   	position: relative;
