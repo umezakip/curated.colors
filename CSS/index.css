@@ -171,15 +171,12 @@
   	left: 62.33%;
 }
 .curatedlogo-1-icon {
-  	position: absolute;
-  	width: 56.14%;
-  	top: 0px;
-  	right: 43.86%;
-  	left: 0%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	height: 58px;
-  	object-fit: cover;
+  	position: relative;
+  	max-width: 250px;
+  	height: auto;
+  	display: block;
+  	margin: 0 auto;
+    object-fit: contain;
 }
 .nav-2-parent {
   	position: absolute;
@@ -189,6 +186,9 @@
   	right: 0.64%;
   	bottom: 59.75%;
   	left: 0.44%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .nav-parent {
   	position: absolute;
