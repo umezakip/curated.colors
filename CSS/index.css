@@ -101,7 +101,8 @@
   	left: 23.06%;
   	max-width: 100%;
   	height: 58px;
-  	object-fit: cover;
+  	object-fit: contain;
+    overflow: visible;
 }
 .home-page-header {
   	position: absolute;
