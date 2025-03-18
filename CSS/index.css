@@ -94,20 +94,18 @@
   	left: 0%;
 }
 .logo-icon {
-  	position: absolute;
-  	width: 55.53%;
+  	position: relative;
   	top: 0px;
   	right: 21.4%;
   	left: 23.06%;
   	max-width: 100%;
-  	overflow: hidden;
   	height: 58px;
-  	object-fit: cover;
+  	object-fit: contain;
 }
 .home-page-header {
-  	position: absolute;
+  	position: relative;
   	height: 2.63%;
-  	width: 23.48%;
+  	width: auto;
   	top: 1.37%;
   	right: 38.44%;
   	bottom: 96%;
